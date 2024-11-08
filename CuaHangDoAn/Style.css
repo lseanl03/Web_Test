@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    padding: 0;
+    display: flex;
+    max-width: 100%;
+    
+}
+a > span, h4{
+    color: black;
+    font-weight: bold;
+}
+.sidebar{
+    width: 20%;
+    height: 100vh;
+    background-color: rgb(176, 176, 176);
+    text-align: center;
+    justify-content: center;
+
+}
+.sidebar > ul > li > a, .log_in > li > a{
+    display: flex;
+}
+.sidebar > ul > li:hover {
+    background-color: rgb(202, 202, 202);
+}
+.sidebar-icon, .sidebar-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 50px;
+    height: 70px;
+    font-size: 20px;
+}
+
+.title{
+    padding-top: 10px;
+    height: 150px;
+}
+.log{
+    margin-top: 30px;
+}  
+li{
+    list-style: none;
+}
+/* menu */
+.main_menu{
+    width: 80%;
+    background-image: url("Image/anh_nen2.png");
+    background-size: cover;
+}
+
+/* loại đồ ăn */
+.loai_do_an{
+    background-size: cover;
+    background-image: url("Image/aaâ.jpg");
+    width: 80%;
+    padding-top: 100px;
+}
+.loai_do_an > h3{
+    font-weight: bold;
+    margin-left: 250px;
+}
+.input_form > span{
+    font-weight: bold;
+    font-size:20px;
+}
+.input_form{
+    margin-left: 250px;
+}
+.input_form > input{
+    font-weight: bold;
+    font-size: 20px;
+    max-width: 200px;
+}
+.green_h3{
+    color: rgb(0, 255, 30);
+    -webkit-text-stroke: 0.5px black;
+}
+.yellow_h3{
+    color: rgb(229, 255, 0);
+    -webkit-text-stroke: 0.5px black;
+
+}
+.red_h3{
+    color: rgb(235, 0, 0);
+    -webkit-text-stroke: 0.5px black;
+}
+/* thêm đồ ăn */
+.do_an{
+    background-size: cover;
+    background-image: url("Image/aaâ.jpg");
+    width: 80%;
+    padding-top: 50px;
+}
+.do_an > h3{
+    font-weight: bold;
+    margin-left: 250px;
+}
+/* đạt đồ ăn */
+.dat_do_an{
+    background-size: cover;
+    background-image: url("Image/aaâ.jpg");
+    width: 80%;
+    padding-top: 50px;
+}
+table{
+    margin: auto;
+    border: 2px solid white;
+    width: 1000px;
+    margin-top: 50px;
+}
+tr ,th ,td{
+    border: 2px solid white;
+}
+th, td{
+    background-color: blanchedalmond;
+    padding: 5px;
+}
+th{
+    text-align: center;
+}
+.caption{
+    font-weight: bold;
+    text-align: center;
+    color: aqua;
+    -webkit-text-stroke: 1px black;
+}
+.add_button{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+.change_button{
+    background-color: rgb(30, 222, 0);
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+.change_button:hover{
+    background-color: rgb(255, 200, 0);
+    color: white;
+    text-decoration: none;
+}
+.add_button:hover{
+    background-color: rgb(255, 200, 0);
+    color: white;
+    text-decoration: none;
+}
+.th_dat_do_an{
+    min-width: 100px;
+}
+.td_dat_do_an, .td_id{
+    padding: 10px 0px;
+    text-align: center;
+}
+
+
+.thanh_toan_button{
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+.thanh_toan_button:hover{
+    background-color: rgb(255, 200, 0);
+    color: white;
+    text-decoration: none;
+}
+.thanh_toan{
+    margin-top: 10px;
+    text-align: center;
+}
+.th_tuy_chon{
+    min-width: 150px;
+}
+.search_form > .input{
+    text-align: center;
+    font-size: 20px;
+}
+.search_form > .input > input {
+    font-weight: bold;
+}
+.text_h5{
+    text-align: center;
+}
